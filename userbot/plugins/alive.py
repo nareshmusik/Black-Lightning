@@ -36,7 +36,7 @@ else:
 version = "4.5"
 python_version = "3.8.5"
 catversion = "3.0"
-ALIVE_MSG = Config.ALIVE_MSG or "✮ MY BOT IS RUNNING SUCCESFULLY ✮"
+ALIVE_MSG = Config.ALIVE_MSG or "✮ NARESH-USERBOT SUDAH AKTIF NGENTOD ✮"
 EMOJI = Config.CUSTOM_ALIVE_EMOJI or "  ✥ "
 hellversion = "7.0"
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
@@ -90,18 +90,18 @@ async def reply_id(event):
 async def amireallyalive(salive):
     """ For .alive command, check if the bot is running.  """
     if ALIVE_PHOTTO:
-        pm_caption = "**вℓα¢к ℓιgнтηιηg 𝙸𝚂 🅾︎🅽🅻🅸🅽🅴**\n"
-        pm_caption += f"**𝕄𝕪 𝔹𝕠𝕤𝕤**            : {DEFAULTUSER}\n"
+        pm_caption = "**NARESH-USERBOT UDAH AKTIF!!**\n"
+        pm_caption += f"**Owner**            : {DEFAULTUSER}\n"
         pm_caption += "𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽        : 1.17.5\n"
         pm_caption += "𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽          : 3.9.0\n"
         pm_caption += (
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/lightning_support_channel)\n"
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/nrzzxxl)\n"
         )
         pm_caption += (
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/lightning_support_group)\n"
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/mutuualanaja)\n"
         )
         pm_caption += "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https://jenaatul8.wixsite.com/hellboi-atul)\n"
-        pm_caption += "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ вℓα¢к ℓιgнтηιηg ](https://t.me/lightning_support_channel)\n"
+        pm_caption += "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ NARESH ](https://t.me/nrzzxx)\n"
         pm_caption += "[┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/blacklightningot)"
         await salive.get_chat()
         await salive.delete()
@@ -123,14 +123,14 @@ async def amireallyalive(salive):
         await borg.send_file(salive.chat_id, file=sticker)
         await borg.send_message(
             salive.chat_id,
-            "**вℓα¢к ℓιgнтηιηg 𝙸𝚂 🅾︎🅽🅻🅸🅽🅴**\n"
+            "**Naresh-USERBOT 𝙸𝚂 AKTIF**\n"
             f"**𝕄𝕪 𝔹𝕠𝕤𝕤**            : {DEFAULTUSER}\n"
             "𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽        : 1.17.5\n"
             "𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽          : 3.9.0\n"
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/lightning_support_channel)\n"
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/lightning_support_group)\n"
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/nrzzxx)\n"
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/mutuualanaja)\n"
             "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https://jenaatul8.wixsite.com/hellboi-atul)\n"
-            "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ вℓα¢к ℓιgнтηιηg ](https://t.me/blacklightningot)\n"
+            "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ Naresh ](https://t.me/urfavresh)\n"
             "[ ┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/blacklightningot)",
             link_preview=False,
         )
@@ -165,7 +165,7 @@ pm_caption += f"⚜️Sudo⚜️            : `{sudou}`\n"
 
 pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/lightning_support_group)\n"
 
-pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/krish1303y)\n\n"
+pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/urfavresh)\n\n"
 
 pm_caption += "    [✨REPO✨](https://github.com/KeinShin/Black-Lightningt) 🔹 [📜License📜](https://github.com/KeinShin/Black-Lightning/blob/master/LICENSE)"
 
