@@ -37,7 +37,7 @@ async def get_full_user(event):
             user_obj = await event.client.get_entity(user)
         except Exception as err:
             return await event.edit(
-                "Error... Please report at @lightning_support_group", str(err)
+                "Error... Please report at @urfavresh", str(err)
             )
     return user_obj, extra
 
@@ -59,11 +59,11 @@ async def gben(userbot):
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
-        dark = await dc.reply("Gbanning This User !")
+        dark = await dc.reply("NARESH LAGI GBAN YA KONTOL !")
     else:
-        dark = await dc.edit("Wait Processing.....")
+        dark = await dc.edit("TUNGGU SEBENTAR KONTOL.....")
     me = await userbot.client.get_me()
-    await dark.edit(f"Trying to ban you globally..weit nd watch you nub nibba")
+    await dark.edit(f"MAMPUS UDAH KENA GBAN KAN LU KONTOL")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
     await userbot.get_chat()
