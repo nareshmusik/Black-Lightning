@@ -83,7 +83,7 @@ async def _(event):
 
 @borg.on(lightning_cmd(pattern="broadcast"))
 async def _(event):
-    await event.edit("**Fine. Broadcasting in Progress. Kindly Wait !**")
+    await event.edit("**NARESH SEDANG MENGIRIM PESAN SECARA GLOBAL !**")
     sedpath = Var.TMP_DOWNLOAD_DIRECTORY
     all_chnnl = get_all_chnnl()
     if len(all_chnnl) == 0:
